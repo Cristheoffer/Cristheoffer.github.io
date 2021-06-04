@@ -19,5 +19,11 @@ body {
  
  <p id="yesClock" style="float:right;">Hello i am clock</p>
   
+ <script> 
+  setInterval(function() {
+    document.getElementById("yesClock").innerHTML = Date();
+  }, 1)
+</script>
+  
 </body>
 </html>
